@@ -28,10 +28,21 @@ export const Button = styled('button', {
                 background: "$brand1",
                 borderColor: "$brand1",
                 color: "$whiteFixed",
+                transition: "500ms",
                 "&:hover": {
                     backgroundColor: "$brand2",
                     borderColor: "$brand2",
                 }
+            },
+            whatsapp: {
+                background: "$green1",
+                borderColor: "$green1",
+                color: "$whiteFixed",
+            },
+            linkedin: {
+                background: "$blue1",
+                borderColor: "$blue1",
+                color: "$whiteFixed",
             },
             icon: {
                 borderColor: "$grey5",

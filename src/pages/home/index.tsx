@@ -32,12 +32,18 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Desenvolvedor Web Full-Stack{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
+              <p>Olá, me chamo Lucas e tenho 25 anos.</p>
+              <p>Sou estudante de programação na Kenzie Academy Brasil, participei
               de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              desenvolvendo habilidades.</p>
+              <p>Estou a 1 ano me desenvolvendo em tecnologias web como HTML, CSS, JavaScript, TypeScript, 
+                React Js, Node Js, Express, TypeORM, Python e Django.
+                Junto com várias biblioteacas para axiliar o desenvolvimento dos projetos.
+                Além de estar familiarizado com metodologias ágeis com o Scrum.
+              </p>
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -70,12 +76,11 @@ export const Home = (): JSX.Element => {
                 Vamos trocar uma ideia?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No linkedIn compartilho meus projetos, processo de desenvolvimento, meus progressos e estou disposto a trocar
+                algumas ideias por lá.
               </Text>
               <Button
-                type="primary"
+                type="linkedin"
                 target="_blank"
                 as="a"
                 href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
@@ -84,15 +89,8 @@ export const Home = (): JSX.Element => {
               </Button>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
-                Projetos
-              </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
-                  dedicação
-                </Text>{" "}
-                em cada detalhe
+                Projetos Desenvolvidos
               </Text>
               <Project />
             </ProjectsAreaContent>

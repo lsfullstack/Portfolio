@@ -9,7 +9,7 @@ const bodyDefaultConfig = {
     fontFamily: "$texts"
 }
 
-export const Text = styled("p", {
+export const Text = styled("div", {
     color: "$grey1",
     fontSize: "$text1",
     fontWeight: 400,
